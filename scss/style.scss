@@ -1,0 +1,23 @@
+// Import theme styles
+
+// Site Speciifc
+@import "site/design";
+@import "site/typography";
+
+// Vars
+@import "variables/palette";
+
+
+// Page Components
+@import "components/btn";
+
+// Layouts
+@import "layouts/header";
+@import "layouts/about";
+@import "layouts/skills";
+@import "layouts/education";
+@import "layouts/portfolio";
+@import "layouts/banner";
+@import "layouts/footer";
+
+

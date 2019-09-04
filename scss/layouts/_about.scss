@@ -1,0 +1,21 @@
+#about {
+    position: relative;
+    .id-pic {
+        width: 200px;
+        box-shadow: 2px 2px rgba(232, 232, 232, 0.2);
+        position: relative;
+        margin-bottom: calc(1em + 5vw);
+        h3 {
+            position: absolute;
+            top: 10%;
+            left: 75%;
+            color: black;
+            padding: 10px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+}
