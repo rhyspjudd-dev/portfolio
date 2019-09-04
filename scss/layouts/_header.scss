@@ -6,6 +6,14 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    @media (max-width: 767px) {
+      -webkit-background-size: fixed;
+      -moz-background-size: fixed;
+      -o-background-size: fixed;
+      background-size: fixed;
+      
+    }
     
     .inner {
         padding: 0;
