@@ -1,3 +1,4 @@
+/* line 1, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/components/btn.scss */
 .button {
   flex: 1 1 auto;
   padding: 10px 40px;
@@ -12,6 +13,7 @@
   box-shadow: 1px 2px #e8e8e8;
 }
 
+/* line 15, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/components/btn.scss */
 .button:after {
   position: absolute;
   transition: .3s;
@@ -23,6 +25,7 @@
   background: black;
 }
 
+/* line 25, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/components/btn.scss */
 .button:nth-of-type(5):after {
   height: 120%;
   left: -10%;
@@ -30,21 +33,27 @@
   z-index: -1;
 }
 
+/* line 31, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/components/btn.scss */
 .button:hover {
   cursor: pointer;
   box-shadow: 1px 1px black;
 }
 
+/* line 34, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/components/btn.scss */
 .button:hover:after {
   width: 100%;
   left: 0;
 }
 
+/* line 38, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/components/btn.scss */
 .button:hover:nth-of-type(5) {
   color: #5bcaff;
 }
 
+/* line 41, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/components/btn.scss */
 .button:hover:nth-of-type(5):after {
   left: -10%;
   width: 120%;
 }
+
+/*# sourceMappingURL=../../../../../../Desktop/htdocs/portfolio/components/btn.map */
