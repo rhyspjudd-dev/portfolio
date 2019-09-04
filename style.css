@@ -150,7 +150,14 @@ li {
   background-size: cover;
 }
 
-/* line 10, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
+@media (max-width: 767px) {
+  /* line 3, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
+  #header {
+    background: url(img/bg-resp.jpg) no-repeat center center fixed;
+  }
+}
+
+/* line 15, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
 #header .inner {
   padding: 0;
   margin: 0;
@@ -162,32 +169,32 @@ li {
   height: 100vh;
 }
 
-/* line 20, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
+/* line 25, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
 #header .inner h1 {
   padding: 10px;
 }
 
-/* line 24, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
+/* line 29, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
 #header .inner h1:nth-child(1) {
   color: black;
 }
 
-/* line 28, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
+/* line 33, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
 #header .inner h1:nth-child(2) {
   color: black;
 }
 
-/* line 32, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
+/* line 37, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
 #header .inner h1:nth-child(3) {
   color: black;
 }
 
-/* line 38, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
+/* line 43, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
 #header .inner h3 {
   grid-row: 1/2;
 }
 
-/* line 44, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
+/* line 49, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
 #header span {
   width: 50px;
   height: 50px;
@@ -199,7 +206,7 @@ li {
   border: 2px solid grey;
 }
 
-/* line 53, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
+/* line 58, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
 #header span svg {
   position: absolute;
   top: 50%;
@@ -208,7 +215,7 @@ li {
   transform: translate(-50%, -50%);
 }
 
-/* line 64, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
+/* line 69, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
 #header .arrow svg {
   position: absolute;
   border-radius: 100%;
@@ -224,7 +231,7 @@ li {
 }
 
 @media (max-width: 767px) {
-  /* line 64, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
+  /* line 69, /Users/driftworks-creative/Dropbox/project/p-r/final-portfolio/scss/layouts/_header.scss */
   #header .arrow svg {
     font-size: calc(1em + 1vw);
     padding: 10px;
