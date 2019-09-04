@@ -8,10 +8,7 @@
     background-size: cover;
 
     @media (max-width: 767px) {
-      -webkit-background-size: fixed;
-      -moz-background-size: fixed;
-      -o-background-size: fixed;
-      background-size: fixed;
+      background: url(img/bg-resp.jpg) no-repeat center center fixed;
       
     }
     
