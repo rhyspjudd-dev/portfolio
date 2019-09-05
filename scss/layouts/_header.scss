@@ -8,8 +8,8 @@
     background-size: cover;
 
     @media (max-width: 767px) {
-      background: url(img/bg-resp.jpg) center fixed;
-      
+      background: url(img/bg-resp.jpg) fixed;
+      background-size: fixed;
     }
     
     .inner {
