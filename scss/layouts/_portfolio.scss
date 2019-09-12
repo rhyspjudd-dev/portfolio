@@ -30,6 +30,7 @@
               grid-column: 1/2;
               grid-row: 2;
               background: url(img/card/card-1.jpg) center center;
+              background-size: cover;
 
               @media (max-width: 1280px) {
                 grid-column: 1/3;
