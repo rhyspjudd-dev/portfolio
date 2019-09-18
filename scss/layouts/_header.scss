@@ -16,7 +16,6 @@
         margin: 0;
         display: flex;
         grid-template-columns: repeat(3, auto);
-        //grid-template-rows: repeat(2, auto);
         justify-content: center;
         align-items: middle;
         place-items: center;
@@ -26,15 +25,15 @@
     
           
             &:nth-child(1) {
-              color: $grey;
+              color: black;
             }
           
             &:nth-child(2) {
-              color: $grey;
+              color: black;
             }
           
             &:nth-child(3) {
-              color: $grey;
+              color: black;
             }
           
         }
