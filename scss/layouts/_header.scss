@@ -25,15 +25,15 @@
     
           
             &:nth-child(1) {
-              color: $grey;
+              color: $black;
             }
           
             &:nth-child(2) {
-              color: $grey;
+              color: $black;
             }
           
             &:nth-child(3) {
-              color: $grey;
+              color: $black;
             }
           
         }
@@ -51,8 +51,8 @@
         bottom: 1%;
         left: 1%;
         border-radius: 50%;
-        color: grey;
-        border: 2px solid grey;
+        color: $grey;
+        border: 2px solid $grey;
         svg {
           position: absolute;
           top: 50%;
@@ -67,11 +67,11 @@
         svg {
           position: absolute;
           border-radius: 100%;
-          border: 3px solid white;
+          border: 3px solid $white;
           font-size: calc(0.1em + 1vw);
           padding: 20px;
           font-family: 'Cabin Sketch', cursive;
-          color: white;
+          color: $white;
           background: rgba(0, 0, 0, .5);
           bottom: 20px;
           left: 50%;

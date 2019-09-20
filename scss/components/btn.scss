@@ -1,9 +1,9 @@
   .button {
     flex: 1 1 auto;
     padding: 10px 40px;
-    border: 1px solid black;
+    border: 1px solid $black;
     text-align: center;
-    background: white;
+    background: $white;
     //text-transform: uppercase;
     position: relative;
     overflow:hidden;
@@ -20,7 +20,7 @@
       left: 50%;
       bottom: 0;
       height: 3px;
-      background: black;
+      background: $black;
     }
     &:nth-of-type(5):after {
       height: 120%;
@@ -30,23 +30,14 @@
     }
     &:hover {
       cursor: pointer;
-      box-shadow: 1px 1px black;
+      box-shadow: 1px 1px $black;
       &:after {
         width: 100%;
         left: 0;
-      }
-      &:nth-of-type(5) {
-        color: #5bcaff;
       }
       &:nth-of-type(5):after {
         left: -10%;
         width: 120%;
       }
-      // &:nth-of-type(6) {
-      //   flex-grow:3;
-      // }
-      // &:nth-of-type(6):after {
-      //   width: 0%;
-      // }
     }
   }
