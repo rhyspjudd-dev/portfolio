@@ -76,7 +76,7 @@ li {
   line-height: 2em;
 }
 
-/* line 1, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/components/btn.scss */
+/* line 1, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/components/_btn.scss */
 .button {
   flex: 1 1 auto;
   padding: 10px 40px;
@@ -91,7 +91,7 @@ li {
   box-shadow: 1px 2px #e8e8e8;
 }
 
-/* line 13, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/components/btn.scss */
+/* line 13, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/components/_btn.scss */
 .button:after {
   position: absolute;
   transition: .3s;
@@ -103,7 +103,7 @@ li {
   background: black;
 }
 
-/* line 23, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/components/btn.scss */
+/* line 23, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/components/_btn.scss */
 .button:nth-of-type(5):after {
   height: 120%;
   left: -10%;
@@ -111,19 +111,19 @@ li {
   z-index: -1;
 }
 
-/* line 29, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/components/btn.scss */
+/* line 29, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/components/_btn.scss */
 .button:hover {
   cursor: pointer;
   box-shadow: 1px 1px black;
 }
 
-/* line 32, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/components/btn.scss */
+/* line 32, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/components/_btn.scss */
 .button:hover:after {
   width: 100%;
   left: 0;
 }
 
-/* line 36, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/components/btn.scss */
+/* line 36, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/components/_btn.scss */
 .button:hover:nth-of-type(5):after {
   left: -10%;
   width: 120%;
