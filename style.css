@@ -13,24 +13,31 @@ section {
   height: auto;
 }
 
-/* line 14, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/site/_design.scss */
+@media (min-width: 320px) and (max-width: 480px) {
+  /* line 9, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/site/_design.scss */
+  section {
+    padding: calc(1rem + 5vw);
+  }
+}
+
+/* line 18, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/site/_design.scss */
 section:first-of-type {
   padding: 0;
 }
 
-/* line 18, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/site/_design.scss */
+/* line 22, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/site/_design.scss */
 section:nth-child(even) {
   background: #f9f9f9;
 }
 
-/* line 23, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/site/_design.scss */
+/* line 27, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/site/_design.scss */
 a {
   cursor: pointer;
   color: black;
   text-decoration: underline;
 }
 
-/* line 27, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/site/_design.scss */
+/* line 31, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/site/_design.scss */
 a:hover {
   background: lightgray;
 }

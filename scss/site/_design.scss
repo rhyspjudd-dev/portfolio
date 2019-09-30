@@ -10,6 +10,10 @@ section {
     padding: calc(1rem + 10vw);  
     height: auto;
 
+    @media (min-width: 320px) and (max-width: 480px) {
+        padding: calc(1rem + 5vw);  
+    }
+
     
     &:first-of-type {
         padding: 0;
