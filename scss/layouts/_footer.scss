@@ -3,10 +3,13 @@ footer {
     height: auto;
     background: rgb(249, 249, 249); 
 
+    @media (min-width: 320px) and (max-width: 480px) {
+        padding: calc(1rem + 5vw);  
+    }
+
     ul {
         padding: 20px 0px;
         li {
-            //
             list-style-type: none;
             display: inline-block;
             margin-right: 50px;

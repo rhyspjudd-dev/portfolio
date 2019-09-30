@@ -611,12 +611,19 @@ footer {
   background: #f9f9f9;
 }
 
-/* line 6, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/layouts/_footer.scss */
+@media (min-width: 320px) and (max-width: 480px) {
+  /* line 1, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/layouts/_footer.scss */
+  footer {
+    padding: calc(1rem + 5vw);
+  }
+}
+
+/* line 10, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/layouts/_footer.scss */
 footer ul {
   padding: 20px 0px;
 }
 
-/* line 8, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/layouts/_footer.scss */
+/* line 12, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/layouts/_footer.scss */
 footer ul li {
   list-style-type: none;
   display: inline-block;
@@ -625,22 +632,22 @@ footer ul li {
   font-family: 'Cabin Sketch', cursive;
 }
 
-/* line 15, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/layouts/_footer.scss */
+/* line 18, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/layouts/_footer.scss */
 footer ul li a {
   animation-delay: 1s;
 }
 
-/* line 18, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/layouts/_footer.scss */
+/* line 21, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/layouts/_footer.scss */
 footer ul li a:hover {
   background-color: transparent;
 }
 
-/* line 22, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/layouts/_footer.scss */
+/* line 25, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/layouts/_footer.scss */
 footer ul li a svg {
   transition: ease 0.5s;
 }
 
-/* line 25, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/layouts/_footer.scss */
+/* line 28, /Users/driftworks-creative/Desktop/htdocs/portfolio/scss/layouts/_footer.scss */
 footer ul li a svg:hover {
   -webkit-transform: scale(1.3);
   -ms-transform: scale(1.3);
