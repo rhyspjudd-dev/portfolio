@@ -1,3 +1,5 @@
+// Vanilla Paralax
+
 window.addEventListener('scroll', function(e) {
   
     const target = document.querySelectorAll('.scroll');
