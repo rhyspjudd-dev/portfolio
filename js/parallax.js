@@ -1,4 +1,4 @@
-// Vanilla Paralax
+// Vanilla Paralax JS
 
 window.addEventListener('scroll', function(e) {
   
